@@ -2,48 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-/* SIT Nagpur CS Department Design System 
-Professional academic colors with modern styling
+/* Symbiosis Institute of Technology Nagpur Design System 
+Professional academic colors with reddish theme
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 218 25% 97%;
-    --foreground: 215 25% 15%;
+    --background: 0 5% 98%;
+    --foreground: 0 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card-foreground: 0 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover-foreground: 0 15% 15%;
 
-    /* Academic Blue Theme */
-    --primary: 210 85% 35%;
+    /* Academic Red Theme */
+    --primary: 0 75% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 210 75% 45%;
-    --primary-glow: 210 85% 60%;
+    --primary-light: 0 65% 55%;
+    --primary-glow: 0 75% 65%;
 
-    --secondary: 215 20% 20%;
+    --secondary: 0 20% 25%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 215 15% 95%;
-    --muted-foreground: 215 25% 40%;
+    --muted: 0 8% 95%;
+    --muted-foreground: 0 15% 40%;
 
-    --accent: 45 90% 60%;
-    --accent-foreground: 215 25% 15%;
+    --accent: 15 85% 60%;
+    --accent-foreground: 0 15% 15%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 20% 88%;
+    --border: 0 10% 88%;
     --input: 0 0% 100%;
-    --ring: 210 85% 35%;
+    --ring: 0 75% 45%;
 
     /* Academic gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
-    --gradient-hero: linear-gradient(180deg, hsl(var(--background)), hsl(210 30% 92%));
-    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(215 15% 98%));
+    --gradient-hero: linear-gradient(180deg, hsl(var(--background)), hsl(0 8% 92%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(0 8% 98%));
 
     /* Academic shadows */
     --shadow-academic: 0 4px 20px -2px hsl(var(--primary) / 0.15);

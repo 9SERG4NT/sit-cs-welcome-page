@@ -11,7 +11,7 @@ const DepartmentHeader = () => {
               Computer Science Department
             </h1>
             <p className="text-primary-foreground/90 text-lg">
-              Sandip Institute of Technology (SIT), Nagpur
+              Symbiosis Institute of Technology (SIT), Nagpur
             </p>
           </div>
         </div>
